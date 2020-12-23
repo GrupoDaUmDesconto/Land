@@ -23,12 +23,15 @@ body {
 .header {
   width: 100%;
   height: 100%;
-  background-image: url('https://lh3.googleusercontent.com/-YQa1UJ8E2x7vAP1T6P4Gq3x5TG8DS-wIXZYD-JyHPwmsrd0RYQJmSmOX7mMj_MUlybo4qyfCBarYgxAglOWsf6yCWVpNoJ1fbs4PXIluPPRSnFdMLAm6S25NER0WsF7RdSEvOji2D-aIcSg9OyU96aQEMurmmq8dd0j7FjGr1xf-Xw0kUUU8QNFz6wl11kIZkqHwVr9PtyyExC6T_QMF373BbFzDA194ekgL639B-m1WfCVX66xiKA7LpPe6v0cdU4_bbSAT_Q4qrJCd1IEcmMw_0EGPz08I1vh9Qtcep3QyLB_tQ9wgVZAsan3Tmms4ixSOR_VZfPo4bd5NCUH7H3Ly9h5cfrx9hZVG6hoer4p4Oo_kvrCQpJevLkj_xr235QPfTsyobGAK6J_lQHzJFjU6PD1B3Ynm0qoLAebnoESDCpyzOywhdhk1Tgv1JbI_VTqvPCUIPlpwVcdrTVUFMULpaLgKdbLuwlKgBqCGyjjIVY3gm1z02w_RfT1RwRAszc3zekzZtYAtgUG0OG7a7A3C79cJNLXMKq_OUERf_RuxtmKmW6_5mtxVF74JNdAj59O4yBiMa-OnIcgG2WmM7JkhkVrdo1ST3aeEGAUzs192Wrwlhwt4qs8hiy9zXjEl0Kjhc4k0xyFNozgG5Iw93shAtlOwhBsQ0J0FFSvX21cQaSAYyB4ffbtTQ3baw=w1189-h787-no?authuser=0');
+  background-image: url('https://lh3.googleusercontent.com/Sa7T2tt82WV10FSHd7tkHsqz_txPTrcfpIdSBckKYlJqsKwnjy3YlfYdMuQ6Z_sVtIYrfHdoczEDrBKkB1fi0P1qnlJE6WoBrd5PVQKq_q7TwzvHCXJOaDusoI7MJXak73zfswAZ9o6D2HPJYn01zHvPMBMskr_juzXP9e9sILZfBmDBsFza0nQ9hMsx9s145dUQBdHlDT0gA1Vk-SSloMOJ_hdp95PMX2QVMURLG7uukhTVoyPkpXPEm3QqRge_rSQ8uEefdQdmyt-LvoMDAaGRk0uN3ZQEFWGhEcTzN0x5gVw6FUR5G66Ka1FKSVReNsvGGOd6dh0RzMWt07xhNHFPsAof91Wl55h8oGk2tGlB54B_w6O9SEgGgND1fwh4xIqFQsFgdD7kqE1Qixw6yXG4cP3W26P4kNHgPNJ6SGG8HynbSIg5t7sqrcOOM_FdZYCWqQYOwPNSew4APRDrP8QXEPAu3JUp7tNwy073HUpZpvj6uGpTvKTuQER_wLJj88HqJEwsgdVS3wVPO2hoIjxCu20fFEyYu2jvIhNhOyQvfuepAeXH4mqdba7SB5Zzfu4tvRGF87mFLIG4P4wnbq2GCqHeddlLwOZDZEsoKl9RpL5nP1M404KhoUWryg6Iq9dmZkVh50hjICQJYXQLzHhZiNoYVRn3Gp2t4pxdFX4RJxBpjYD3c1mHjCYfeA=w501-h890-no?authuser=0');
   background-repeat: no-repeat;
 
-  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: scroll;
   background-position: center;
+  
 }
+
 
 .buttons {
   display: flex;
@@ -58,15 +61,24 @@ h1 {
   color: #444;
   letter-spacing: 0.05em;
   margin: 0 0 0.4em;
-  font-size: 1em;
+  font-size: 2em;
 }
 
 p {
-  text-align: left;
-  color: #444;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.1em;
+  cursor: pointer;
   font-size: 2em;
-  margin: 1em 0 1em 0;
+  font-weight: 400;
+  line-height: 45px;
+
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+  margin: 0.5em 0 0.5em 0;
+
+  padding: 10px;
+
 }
 
 
